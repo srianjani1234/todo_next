@@ -142,7 +142,7 @@ export default function Home() {
   const currentTasks = filteredTasks.slice(indexOfFirst, indexOfLast);
   const totalPages = Math.ceil(filteredTasks.length / tasksPerPage);
 
-  if (!user) return <div>Please login first</div>;
+  // if (!user) return <div>Please login first</div>;
 
   return (
     <>
