@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 11vh;
+  background-color: #2d2d2d; /* Dark gray */
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+.image{
+   height: 60px;
+  border-radius: 50px;
+ 
+}
+.welcome {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white; /* GOLD/Professional accent color */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logoutBtn, .loginBtn {
+  background-color: #ff6b6b; /* Red button */
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+
+.logoutBtn:hover, .loginBtn:hover {
+  background-color: #ff4c4c;
+}
